@@ -1,0 +1,52 @@
+html {
+	height: 100%;
+}
+
+#calendar {
+	background: black;
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+
+	color: white;
+}
+
+
+#days {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin: 15px;
+}
+
+#days button, #days p {
+	width: 30px;
+	height: 30px;
+	background: none;
+	border: none;
+
+
+	color: white;
+	text-align: center;
+
+	user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+
+.newEvent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	height: 90%;
+	border: black solid 2px;
+	background: white;
+}

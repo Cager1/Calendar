@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+
+	<div id="calendar">
+		<div>
+			<h1 id="year">2020</h1>
+		</div>
+		<div>
+			<select name="month" id="month" onchange="monthChange()">
+				<option value="0">January</option>
+				<option value="1">Febuary</option>
+				<option value="2">March</option>
+				<option value="3">April</option>
+				<option value="4">May</option>
+				<option value="5">June</option>
+				<option value="6">July</option>
+				<option value="7">August</option>
+				<option value="8">September</option>
+				<option value="9">October</option>
+				<option value="10">November</option>
+				<option value="11">December</option>
+
+			</select>
+		</div>
+		<div id="days">
+			<p>Mon</p>
+			<p>Tue</p>
+			<p>Wen</p>
+			<p>Thu</p>
+			<p>Fri</p>
+			<p>Sat</p>
+			<p>Sun</p>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+		</div>
+
+		<div id="events">
+			<input type="text" name="event" placeholder="Add an event to selected date" id="event">
+			<input type="submit" name="submit" id="submit">
+		</div>
+	</div>
+	<div id="madeEvents"></div>
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
